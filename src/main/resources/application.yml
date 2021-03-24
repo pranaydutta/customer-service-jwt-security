@@ -1,0 +1,9 @@
+app:
+  auth-service:
+    registrationurl: http://localhost:8080/auth/user/register
+    loginurl: http://localhost:8080/auth/user/login
+    validateurl: http://localhost:8080/auth/user/validate
+    basicauth: Basic YWRtaW46YWRtaW4=
+
+server:
+  port: 8085
